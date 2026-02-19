@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "name": "Пельмени",
+        "price": 9999,
+        "image": "-",
+        "description": "Х-"
+    },
+    {
+        "id": 2,
+        "name": "Вареники",
+        "price": 9999,
+        "image": "-",
+        "description": "-"
+    },
+    {
+        "id": 3,
+        "name": "Котлеты к 20ому числу",
+        "price": 9999,
+        "image": "-",
+        "description": "-"
+    }
+]
