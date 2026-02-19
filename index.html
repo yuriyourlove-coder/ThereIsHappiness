@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <!-- Важно для телефонов: масштаб и отступы -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    
+    <title>Мой Магазин</title>
+    
+    <!-- Подключаем CSS -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Манифест (про него позже) -->
+    <link rel="manifest" href="manifest.json">
+    
+    <!-- Цвет темы для браузера (сделайте в цвет вашего дизайна) -->
+    <meta name="theme-color" content="#3498db">
+</head>
+<body>
+    <!-- Шапка приложения -->
+    <header class="app-header">
+        <h1>Счастье Есть</h1>
+        <div class="cart-icon" onclick="showCart()">🛒 <span id="cart-count">0</span></div>
+    </header>
+
+    <!-- Основной контент здесь будет меняться -->
+    <main id="content">
+        <!-- Сюда JavaScript загрузит товары -->
+        <div class="loader">Загрузка...</div>
+    </main>
+
+    <!-- Нижнее меню (навигация) -->
+    <nav class="app-nav">
+        <button onclick="showHome()" class="active">Главная</button>
+        <button onclick="showCatalog()">Каталог</button>
+        <button onclick="showCart()">Корзина</button>
+    </nav>
+
+    <!-- Подключаем JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
